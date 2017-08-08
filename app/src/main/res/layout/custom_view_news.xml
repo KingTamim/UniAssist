@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/postImage"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:scaleType="fitXY" />
+        <TextView
+            android:id="@+id/postTitle"
+            android:padding="5dp"
+            android:text="News Title"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/postDescription"
+            android:padding="5dp"
+            android:text="Description goes here."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

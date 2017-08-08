@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "167175349427",
+    "firebase_url": "https://uniassist-3857e.firebaseio.com",
+    "project_id": "uniassist-3857e",
+    "storage_bucket": "uniassist-3857e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167175349427:android:44012d77ca351330",
+        "android_client_info": {
+          "package_name": "com.goribmanush.uniassist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167175349427-c2ot3le40jvcgp84isdgkov5s2khhugu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.goribmanush.uniassist",
+            "certificate_hash": "850905f77f09eca20154c1c1594d37d23d8a7da1"
+          }
+        },
+        {
+          "client_id": "167175349427-7th1i9qp5srv421ltrmocrbrqfqhk41m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMxOoKeF6qX-iMSq5lSrSh_TqgSO0B0ds"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167175349427-7th1i9qp5srv421ltrmocrbrqfqhk41m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

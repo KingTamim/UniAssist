@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cfd8dc"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.goribmanush.uniassist.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+        <!--android.support.v7.widget.Toolbar
+            android:id="@+id/toolBar"
+            android:background="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+
+    -->
+
+
+
+    <!--////////////////////////////////////////////////////
+    The bellow section is not yet implemented in Main activity. This is just design
+    It will not appear until you fix up the Java class
+    //////////////////////////////////////////////////////////-->
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/colorPrimary"
+        >
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/fragTabLayout"
+            app:tabGravity="fill"
+            app:tabMode="fixed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.design.widget.TabLayout>
+
+        </android.support.design.widget.AppBarLayout>
+    </android.support.design.widget.BottomNavigationView>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/fragViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+
+
+
+</RelativeLayout>

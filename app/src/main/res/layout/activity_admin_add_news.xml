@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.goribmanush.uniassist.AdminAddNews">
+
+    <ImageButton
+
+        android:id="@+id/btn_newsAddImage"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_margin="5dp"
+        android:background="#00ffffff"
+        android:scaleType="fitXY"
+        android:src="@drawable/image_select_box"
+        android:textColor="#777" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+    <EditText
+        android:id="@+id/et_newsAddTitle"
+        android:hint="Add Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+        <EditText
+            android:id="@+id/et_newsAddDescription"
+            android:hint="Add Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btn_newsSubmit"
+        android:text="PUBLISH NEWS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        />
+
+
+
+
+</LinearLayout>

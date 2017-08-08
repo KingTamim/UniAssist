@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#cfd8dc"
+    tools:context="com.goribmanush.uniassist.Fragment_news">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/newsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomNavigationView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottomNavigationView"></android.support.design.widget.BottomNavigationView>
+
+
+</RelativeLayout>
